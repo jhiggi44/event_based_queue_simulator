@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jordanhiggins/Desktop/personal_projects/queue_sim
+# Install script for directory: /Users/oliveryu/Documents/event_based_queue_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jordanhiggins/Desktop/personal_projects/queue_sim/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/oliveryu/Documents/event_based_queue_simulator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

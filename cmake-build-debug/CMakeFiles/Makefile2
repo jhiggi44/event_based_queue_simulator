@@ -59,47 +59,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jordanhiggins/Desktop/personal_projects/queue_sim
+CMAKE_SOURCE_DIR = /Users/oliveryu/Documents/event_based_queue_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jordanhiggins/Desktop/personal_projects/queue_sim/cmake-build-debug
-
-#=============================================================================
-# Target rules for target CMakeFiles/queueSim.dir
-
-# All Build rule for target.
-CMakeFiles/queueSim.dir/all:
-	$(MAKE) -f CMakeFiles/queueSim.dir/build.make CMakeFiles/queueSim.dir/depend
-	$(MAKE) -f CMakeFiles/queueSim.dir/build.make CMakeFiles/queueSim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jordanhiggins/Desktop/personal_projects/queue_sim/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target queueSim"
-.PHONY : CMakeFiles/queueSim.dir/all
-
-# Include target in all.
-all: CMakeFiles/queueSim.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/queueSim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jordanhiggins/Desktop/personal_projects/queue_sim/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/queueSim.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jordanhiggins/Desktop/personal_projects/queue_sim/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/queueSim.dir/rule
-
-# Convenience name for target.
-queueSim: CMakeFiles/queueSim.dir/rule
-
-.PHONY : queueSim
-
-# clean rule for target.
-CMakeFiles/queueSim.dir/clean:
-	$(MAKE) -f CMakeFiles/queueSim.dir/build.make CMakeFiles/queueSim.dir/clean
-.PHONY : CMakeFiles/queueSim.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/queueSim.dir/clean
-
-.PHONY : clean
+CMAKE_BINARY_DIR = /Users/oliveryu/Documents/event_based_queue_simulator/cmake-build-debug
 
 #=============================================================================
 # Special targets to cleanup operation of make.

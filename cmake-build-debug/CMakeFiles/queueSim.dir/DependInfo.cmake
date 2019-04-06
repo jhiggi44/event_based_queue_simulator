@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jordanhiggins/Desktop/personal_projects/queue_sim/Events.cpp" "/Users/jordanhiggins/Desktop/personal_projects/queue_sim/cmake-build-debug/CMakeFiles/queueSim.dir/Events.cpp.o"
-  "/Users/jordanhiggins/Desktop/personal_projects/queue_sim/main.cpp" "/Users/jordanhiggins/Desktop/personal_projects/queue_sim/cmake-build-debug/CMakeFiles/queueSim.dir/main.cpp.o"
+  "/Users/oliveryu/Documents/event_based_queue_simulator/Events.cpp" "/Users/oliveryu/Documents/event_based_queue_simulator/cmake-build-debug/CMakeFiles/queueSim.dir/Events.cpp.o"
+  "/Users/oliveryu/Documents/event_based_queue_simulator/main.cpp" "/Users/oliveryu/Documents/event_based_queue_simulator/cmake-build-debug/CMakeFiles/queueSim.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
