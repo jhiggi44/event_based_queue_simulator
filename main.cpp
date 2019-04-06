@@ -9,6 +9,7 @@ int main(int argc, const char* argv[]) {
         std::cout << "Not enough args...\n";
         exit(1);
     }
+    
     const int hours_of_operation = 12;
     const int total_minutes = hours_of_operation * 60;
     const int total_seconds = total_minutes * 60;
