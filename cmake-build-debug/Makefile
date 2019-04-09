@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jordanhiggins/Desktop/personal_projects/queue_sim
+CMAKE_SOURCE_DIR = /Users/oliveryu/Documents/event_based_queue_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jordanhiggins/Desktop/personal_projects/queue_sim/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/oliveryu/Documents/event_based_queue_simulator/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jordanhiggins/Desktop/personal_projects/queue_sim/cmake-build-debug/CMakeFiles /Users/jordanhiggins/Desktop/personal_projects/queue_sim/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliveryu/Documents/event_based_queue_simulator/cmake-build-debug/CMakeFiles /Users/oliveryu/Documents/event_based_queue_simulator/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jordanhiggins/Desktop/personal_projects/queue_sim/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliveryu/Documents/event_based_queue_simulator/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,73 +110,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named queueSim
-
-# Build rule for target.
-queueSim: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 queueSim
-.PHONY : queueSim
-
-# fast build rule for target.
-queueSim/fast:
-	$(MAKE) -f CMakeFiles/queueSim.dir/build.make CMakeFiles/queueSim.dir/build
-.PHONY : queueSim/fast
-
-Events.o: Events.cpp.o
-
-.PHONY : Events.o
-
-# target to build an object file
-Events.cpp.o:
-	$(MAKE) -f CMakeFiles/queueSim.dir/build.make CMakeFiles/queueSim.dir/Events.cpp.o
-.PHONY : Events.cpp.o
-
-Events.i: Events.cpp.i
-
-.PHONY : Events.i
-
-# target to preprocess a source file
-Events.cpp.i:
-	$(MAKE) -f CMakeFiles/queueSim.dir/build.make CMakeFiles/queueSim.dir/Events.cpp.i
-.PHONY : Events.cpp.i
-
-Events.s: Events.cpp.s
-
-.PHONY : Events.s
-
-# target to generate assembly for a file
-Events.cpp.s:
-	$(MAKE) -f CMakeFiles/queueSim.dir/build.make CMakeFiles/queueSim.dir/Events.cpp.s
-.PHONY : Events.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/queueSim.dir/build.make CMakeFiles/queueSim.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/queueSim.dir/build.make CMakeFiles/queueSim.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/queueSim.dir/build.make CMakeFiles/queueSim.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -185,13 +118,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... queueSim"
-	@echo "... Events.o"
-	@echo "... Events.i"
-	@echo "... Events.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

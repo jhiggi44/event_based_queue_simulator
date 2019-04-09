@@ -1,13 +1,15 @@
 #include <iostream>
 #include <queue>
 #include <array>
-#include "Events.hpp"
+#include "simUtils.h"
+
 
 int main(int argc, const char* argv[]) {
     if (argc < 3) {
         std::cout << "Not enough args...\n";
         exit(1);
     }
+    
     const int hours_of_operation = 12;
     const int total_minutes = hours_of_operation * 60;
     const int total_seconds = total_minutes * 60;
@@ -25,7 +27,7 @@ int main(int argc, const char* argv[]) {
         int arrivalTime = rand() % total_seconds;
         int secondsToService = rand() % maxServiceTimeInSeconds;
         Customer c = Customer(secondsToService, arrivalTime);
-        events.emplace(Event(arrivalTime, c));
+        events.emplace(Arrival(arrivalTime, c));
     }
 
     runSim(events);
